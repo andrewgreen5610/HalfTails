@@ -14,21 +14,14 @@ It is only a *documentation project*,  "plug-and-play" sequence of instructions 
 ## The HalfTails conventions (2017)
 Current (2017-03)  general conventions (for rationale see [Wiki](https://github.com/CidadeAmarela/HalfTails/wiki)),
 
-* Debian 8 (Jessie)
-* GNOME Shell
-* Mozilla browser 
-* SSH terminal
-* (option to) remove all that is not relevant for HalfTails-standard-users.
-
-So, specific implementations:
-* `mkusb`
-* `debian-live-8.7.1-amd64-gnome-desktop.iso`
-* ... see deitails at installation.
+* Stable Debian 8 (Jessie) and GNOME Shell. So `debian-live-8.7.1-amd64-gnome-desktop.iso`
+* From `mkusb` (the most reliable *USB maker*).
+* Mozilla browser,  SSH terminal, etc. So: preserve basic tools, and  option to remove all other (that is not relevant for HalfTails-standard-users).
 
 ## Installation instructions
 Easy to copy/past to terminal, direct instructions in 
 
-* From [UBUNT or Debian](install-from-ubuntu.md)
+* From [Ubuntu, Debian or Mint](install-from-ubuntu.md)
 * From Windows
 * From OSx
 
