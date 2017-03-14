@@ -6,7 +6,7 @@ Half of requirements, half needs of [Tails](https://tails.boum.org).
 
 ## Objectives
 
-It is only a *documentation project*,  "plug-and-play" sequence of instructions to cretate secure (the most secure and reliable possible!) [Live USB](https://en.wikipedia.org/wiki/Live_USB) using:
+It is only a *documentation project*,  "plug-and-play" sequence of instructions to cretate standard, reliable and secure  [live USB](https://en.wikipedia.org/wiki/Live_USB) using:
 
 * standard Linux: *minimal* [Debian Stable](https://wiki.debian.org/DebianStable)
 * Live USB basic or persistent options
