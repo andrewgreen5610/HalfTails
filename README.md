@@ -1,6 +1,8 @@
 # HalfTails
 
-Half of requirements, half of needs of the [Tails](https://tails.boum.org) system [Live USB](https://en.wikipedia.org/wiki/Live_USB). 
+Half of requirements, half of needs of the [Tails](https://tails.boum.org) system [Live USB](https://en.wikipedia.org/wiki/Live_USB).
+
+![](halfTails-logo-180px.png)
 
 ## Objectives
 
