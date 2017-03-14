@@ -1,7 +1,9 @@
 
 ## Installation of HalfTails from Ubuntu, Debian or Mint
 
-Step-by-step at terminal.
+HalfTails is the Live USB Debian system obtained after a sequence of steps and using some good-practices. 
+
+Step-by-step at terminal. Minimal pendrive 2Gb.
 
 **Step-1**: get the ISO and check it (~15 minutes to download).
 
@@ -10,21 +12,31 @@ Step-by-step at terminal.
  wget -c http://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-8.7.1-amd64-gnome-desktop.iso
 
 # the checksums for it:
- wget -c http://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/SHA256SUMS
+ wget -c http://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/SHA512SUMS
  # need certificate?  SHA256SUMS.sign
- sha256sum -c SHA256SUMS 2>&1 | grep -E 'OK|SUCESSO' 
+ sha512sum -c SHA512SUMS 2>&1 | grep -E 'OK|SUCESSO' 
  # debian-live-8.7.1-amd64-standard.iso: OK
 ```
 
 **Step-2**: check and/or install `mkusb`
-If `mkusb --version`  is old or not exist,  
+If version by `man mkusb | tail`, need be "version 12.0.0" or newer. If old purge with `
 
-```
-# sudo add-apt-repository universe  # somente para "standard Ubuntu" (em geral já está la)
-sudo add-apt-repository ppa:mkusb/ppa  # e tecle Enter
-sudo apt-get update # aguarde antes do proximo comando
-sudo apt-get install mkusb mkusb-nox usb-pack-efi  # aguarde ... 
-mkusb --version  # tudo ok? siga.
+```sh
+# sudo add-apt-repository universe  # only for "standard Ubuntu" (may be there)
+sudo add-apt-repository ppa:mkusb/ppa  # press Enter
+sudo apt-get update # wait to the next command
+sudo apt install mkusb mkusb-nox usb-pack-efi  # wait ... 
+man mkusb | tail | grep version  # it is 12.0.0?
 ```
 
-....
+**Step-3**: make your pendrive Live USB!
+
+Only answer pressing letters or buttons after initial command.
+
+```sh
+mkusb
+# them, press "d" for mkusb-dus  interface
+# at first popup click "i" and OK button
+# at second popup click "p" or "l" as your preference.
+```
+
