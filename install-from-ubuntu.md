@@ -40,3 +40,11 @@ mkusb
 # at second popup click "p" or "l" as your preference.
 ```
 
+## under construction
+* at persistent pendrive, *purge* sumeting to go faster at boot?  
+* purge something to avoid risk?  
+* ...
+
+## general best practices
+
+See [the Wiki](https://github.com/CidadeAmarela/HalfTails/wiki/Best-Practices). 
