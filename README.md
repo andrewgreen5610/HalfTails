@@ -27,7 +27,7 @@ Easy to copy/past to terminal, direct instructions in
 * From Windows
 * From OSx
 
-## License (this instructions)
+## License
 
 [
 &nbsp;&nbsp;![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/88px-CC-BY_icon.svg.png)<br/>
