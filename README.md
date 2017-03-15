@@ -13,6 +13,10 @@ It is only a *documentation project*,  "plug-and-play" sequence of instructions 
 * Mozilla Firefox and other basic tools as Tails reccomendations, but **without** [Tor](https://www.torproject.org/).
 * Updates, care, etc. as Tails reccomendations, but without Tor.
 
+## Status of this version
+It is only a procedure (sequence of terminal instructions) to make a bootable pendrive with Debian system. Next version will add more "secure procedures"... But only far future will be "Tails without Tor".
+
+
 ## The HalfTails conventions (2017)
 Current (2017-03)  general conventions (for rationale see [Wiki](https://github.com/CidadeAmarela/HalfTails/wiki)),
 
