@@ -26,7 +26,8 @@ If version by `man mkusb | tail`, need be "version 12.0.0" or newer. If old purg
 sudo add-apt-repository ppa:mkusb/ppa  # press Enter
 sudo apt-get update # wait to the next command
 sudo apt install mkusb mkusb-nox usb-pack-efi  # wait ... 
-man mkusb | tail | grep version  # it is 12.0.0?
+man mkusb | tail | grep version  # it is 12.0.0? see also http://askubuntu.com/a/893189/439867
+dus -v  # dus 12.0.5 (dus is the tool, mkusb is a tool-selector) 
 ```
 
 **Step-3**: make your pendrive Live USB!
