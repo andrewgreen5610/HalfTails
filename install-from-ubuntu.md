@@ -39,6 +39,9 @@ mkusb
 # at first popup click "i" and OK button
 # at second popup click "p" or "l" as your preference.
 ```
+## Optional to change terminal language
+
+see https://superuser.com/a/647957
 
 ## under construction
 * at persistent pendrive, *purge* sumeting to go faster at boot?  
