@@ -4,9 +4,11 @@ Half of requirements, half needs of [Tails](https://tails.boum.org).
 
 ![](halfTails-logo-180px.png)
 
+Tails is for *security and anonymity*, **HalfTails is only for security** and a system for circumstantial use.
+
 ## Objectives
 
-It is only a *documentation project*,  "plug-and-play" sequence of instructions to cretate standard, reliable and secure  [live USB](https://en.wikipedia.org/wiki/Live_USB) using:
+It is a *documentation project*,  "plug-and-play" sequence of instructions to cretate standard, reliable and secure  [live USB](https://en.wikipedia.org/wiki/Live_USB) using:
 
 * standard Linux: *minimal* [Debian Stable](https://wiki.debian.org/DebianStable)
 * Live USB basic or persistent options
