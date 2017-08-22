@@ -32,7 +32,7 @@ dus -v  # dus 12.0.5 (dus is the tool, mkusb is a tool-selector)
 
 **Step-3**: make your pendrive Live USB!
 
-Only answer pressing letters or buttons after initial command.
+Do it offline (see [problems with online installations](https://stackoverflow.com/q/42857281/287948)). Only answer pressing letters or buttons after initial command.
 
 ```sh
 mkusb
