@@ -4,7 +4,7 @@ Half of requirements, half needs of [Tails](https://tails.boum.org).
 
 ![](halfTails-logo-180px.png)
 
-Tails is for *security and anonymity*, **HalfTails is only for security** and a system for circumstantial use.
+Tails is for *security and anonymity*, **HalfTails is only for security** and a system for circumstantial use. <br/>See also, at  [suporte.ok.org.br](http://suporte.ok.org.br),  "[Tarefas com risco de quebra da segurança](https://github.com/okfn-brasil/suporte/blob/master/docs/termo.md#tarefas-com-risco-de-quebra-da-segurança)".
 
 ## Objectives
 
@@ -20,7 +20,7 @@ It is only a procedure (sequence of terminal instructions) to make a bootable pe
 
 
 ## The HalfTails conventions (2017)
-Current (2017-03)  general conventions (for rationale see [Wiki](https://github.com/CidadeAmarela/HalfTails/wiki)),
+Current (2017-03)  general conventions (for rationale see [Wiki](https://github.com/okfn-brasil/HalfTails/wiki)),
 
 * Stable Debian 8 (Jessie) and GNOME Shell. So `debian-live-8.7.1-amd64-gnome-desktop.iso`
 * From `mkusb` (the most reliable *USB maker*).
